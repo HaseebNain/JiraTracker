@@ -1,0 +1,62 @@
+{
+  "lastUpdated": "2026-01-15",
+  "sprints": {
+    "current": {
+      "name": "Sprint_2026.01.20",
+      "label": "Active · Jan 8 – Jan 20",
+      "state": "open",
+      "total": 12,
+      "totalSP": 34,
+      "closed": 4, "closedSP": 11,
+      "inProgress": 3, "inProgressSP": 8,
+      "assigned": 4, "assignedSP": 12,
+      "onHold": 1, "onHoldSP": 3,
+      "tickets": [
+        {"key":"DEMO-101","summary":"Update login page styling","status":"Closed","priority":"P3-Medium","sp":3,"sprint":"Sprint_2026.01.20","component":"Frontend","created":"2026-01-08","updated":"2026-01-14"},
+        {"key":"DEMO-102","summary":"Fix CSV export encoding issue","status":"Closed","priority":"P2-High","sp":5,"sprint":"Sprint_2026.01.20","component":"Backend","created":"2026-01-09","updated":"2026-01-15"},
+        {"key":"DEMO-103","summary":"Add retry logic to notification service","status":"In Progress","priority":"P2-High","sp":3,"sprint":"Sprint_2026.01.20","component":"Backend","created":"2026-01-10","updated":"2026-01-15"},
+        {"key":"DEMO-104","summary":"Dashboard loading performance optimization","status":"In Progress","priority":"P3-Medium","sp":5,"sprint":"Sprint_2026.01.20","component":"Frontend","created":"2026-01-08","updated":"2026-01-13"},
+        {"key":"DEMO-105","summary":"Investigate intermittent API timeout","status":"Assigned","priority":"P1-Critical","sp":3,"sprint":"Sprint_2026.01.20","component":"Infrastructure","created":"2026-01-11","updated":"2026-01-15"},
+        {"key":"DEMO-106","summary":"Add unit tests for auth middleware","status":"Assigned","priority":"P3-Medium","sp":3,"sprint":"Sprint_2026.01.20","component":"Backend","created":"2026-01-12","updated":"2026-01-12"},
+        {"key":"DEMO-107","summary":"Update API documentation for v2 endpoints","status":"Assigned","priority":"P5","sp":2,"sprint":"Sprint_2026.01.20","component":"Documentation","created":"2026-01-13","updated":"2026-01-13"},
+        {"key":"DEMO-108","summary":"Migrate user preferences to new schema","status":"In Progress","priority":"P3-Medium","sp":3,"sprint":"Sprint_2026.01.20","component":"Backend","created":"2026-01-09","updated":"2026-01-14"},
+        {"key":"DEMO-109","summary":"Fix timezone handling in reports","status":"Closed","priority":"P2-High","sp":2,"sprint":"Sprint_2026.01.20","component":"Backend","created":"2026-01-08","updated":"2026-01-11"},
+        {"key":"DEMO-110","summary":"Add dark mode toggle to settings","status":"On Hold","priority":"P5","sp":3,"sprint":"Sprint_2026.01.20","component":"Frontend","created":"2026-01-10","updated":"2026-01-12"},
+        {"key":"DEMO-111","summary":"Resolve memory leak in WebSocket handler","status":"Closed","priority":"P1-Critical","sp":1,"sprint":"Sprint_2026.01.20","component":"Infrastructure","created":"2026-01-14","updated":"2026-01-15"},
+        {"key":"DEMO-112","summary":"Create onboarding checklist component","status":"Assigned","priority":"P5","sp":4,"sprint":"Sprint_2026.01.20","component":"Frontend","created":"2026-01-14","updated":"2026-01-14"}
+      ]
+    },
+    "previous": {
+      "name": "Sprint_2026.01.06",
+      "label": "Closed · Dec 25 – Jan 6",
+      "state": "closed",
+      "total": 10,
+      "totalSP": 28,
+      "closed": 8, "closedSP": 22,
+      "inProgress": 1, "inProgressSP": 3,
+      "assigned": 1, "assignedSP": 3,
+      "onHold": 0, "onHoldSP": 0,
+      "tickets": [
+        {"key":"DEMO-090","summary":"Refactor database connection pooling","status":"Closed","priority":"P2-High","sp":5,"sprint":"Sprint_2026.01.06","component":"Backend","created":"2025-12-26","updated":"2026-01-03"},
+        {"key":"DEMO-091","summary":"Add pagination to search results","status":"Closed","priority":"P3-Medium","sp":3,"sprint":"Sprint_2026.01.06","component":"Frontend","created":"2025-12-27","updated":"2026-01-04"},
+        {"key":"DEMO-092","summary":"Fix race condition in job queue","status":"Closed","priority":"P1-Critical","sp":3,"sprint":"Sprint_2026.01.06","component":"Backend","created":"2025-12-28","updated":"2025-12-30"},
+        {"key":"DEMO-093","summary":"Update CI pipeline for Node 20","status":"Closed","priority":"P3-Medium","sp":2,"sprint":"Sprint_2026.01.06","component":"Infrastructure","created":"2025-12-29","updated":"2026-01-02"}
+      ]
+    },
+    "earlier": {
+      "name": "Sprint_2025.12.23",
+      "label": "Closed · Dec 11 – Dec 23",
+      "state": "closed",
+      "total": 9,
+      "totalSP": 25,
+      "closed": 7, "closedSP": 20,
+      "inProgress": 1, "inProgressSP": 3,
+      "assigned": 1, "assignedSP": 2,
+      "onHold": 0, "onHoldSP": 0,
+      "tickets": [
+        {"key":"DEMO-080","summary":"Implement SSO integration","status":"Closed","priority":"P2-High","sp":5,"sprint":"Sprint_2025.12.23","component":"Backend","created":"2025-12-11","updated":"2025-12-18"},
+        {"key":"DEMO-081","summary":"Add rate limiting to public API","status":"Closed","priority":"P1-Critical","sp":3,"sprint":"Sprint_2025.12.23","component":"Infrastructure","created":"2025-12-12","updated":"2025-12-16"}
+      ]
+    }
+  }
+}
