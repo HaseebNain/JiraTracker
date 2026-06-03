@@ -75,14 +75,15 @@
       border-radius: 20px; border: 1px solid rgba(255,255,255,0.07);
     }
     .refresh-btn {
-      background: linear-gradient(135deg, var(--accent), #a855f7);
-      border: none; border-radius: 9px;
-      color: white; font-size: 12px; font-weight: 600;
-      padding: 7px 15px; cursor: pointer;
-      transition: all 0.2s; letter-spacing: 0.2px;
-      box-shadow: 0 2px 12px rgba(124,111,247,0.25);
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.09);
+      border-radius: 9px;
+      color: var(--text-muted); font-size: 12px; font-weight: 500;
+      padding: 7px 14px; cursor: pointer;
+      transition: all 0.18s; letter-spacing: 0.15px;
+      font-family: inherit;
     }
-    .refresh-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(124,111,247,0.45); }
+    .refresh-btn:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.15); color: var(--text); transform: translateY(-1px); }
 
     /* MAIN */
     .main { padding: 28px 32px; max-width: 1440px; margin: 0 auto; }
@@ -1084,10 +1085,10 @@
       </div>
     </div>
     <span class="last-updated">Loading...</span>
-    <button class="refresh-btn" onclick="openStandupModal()" style="background: linear-gradient(135deg, #f7971e, #ffd200); color: #1a1d27;">Standup</button>
-    <button class="refresh-btn" onclick="togglePomodoro()" id="pomodoroToggleBtn" style="background: linear-gradient(135deg, #ff6584, #ff4d6d);">Pomo</button>
-    <button class="refresh-btn" id="refreshBtn" onclick="refreshData()">↻ Reload Data</button>
-    <button class="refresh-btn" onclick="toggleFocusMode()" id="focusModeBtn" style="background: linear-gradient(135deg, var(--accent3), #38f9d7);">Focus</button>
+    <button class="refresh-btn" onclick="openStandupModal()" style="color:#f59e0b;border-color:rgba(245,158,11,0.2);">Standup</button>
+    <button class="refresh-btn" onclick="togglePomodoro()" id="pomodoroToggleBtn" style="color:#f472b6;border-color:rgba(244,114,182,0.2);">Pomo</button>
+    <button class="refresh-btn" id="refreshBtn" onclick="refreshData()" style="color:var(--accent);border-color:rgba(124,111,247,0.2);">↻ Reload</button>
+    <button class="refresh-btn" onclick="toggleFocusMode()" id="focusModeBtn" style="color:var(--accent3);border-color:rgba(52,211,153,0.2);">Focus</button>
     <button class="settings-btn" onclick="openModal('settingsModal')"><span class="token-status disconnected" id="tokenStatusDot"></span> Settings</button>
   </div>
 </div>
@@ -1514,7 +1515,7 @@
 
   <!-- PERFORMANCE REVIEW EXPORT -->
   <div style="text-align:center;margin-top:20px;margin-bottom:20px;">
-    <button class="refresh-btn" onclick="exportPerformanceReview()" style="background: linear-gradient(135deg, var(--accent), var(--accent2));">Export Performance Review</button>
+    <button class="refresh-btn" onclick="exportPerformanceReview()" style="color:var(--accent);border-color:rgba(124,111,247,0.2);">Export Performance Review</button>
   </div>
 
 </div>
@@ -1654,7 +1655,7 @@
       <div style="border-top:1px solid var(--border);margin-top:16px;padding-top:16px;">
         <label class="modal-label">Dashboard Updates</label>
         <div style="display:flex;gap:8px;align-items:center;">
-          <button class="refresh-btn" style="padding:8px 16px;font-size:12px;background:linear-gradient(135deg, var(--accent3), #38f9d7)" onclick="checkForUpdates()">Pull Latest from Main</button>
+          <button class="refresh-btn" style="padding:8px 16px;font-size:12px;color:var(--accent3);border-color:rgba(52,211,153,0.2);" onclick="checkForUpdates()">Pull Latest from Main</button>
           <span id="updateStatusMsg" style="font-size:12px;color:var(--text-muted);"></span>
         </div>
       </div>
